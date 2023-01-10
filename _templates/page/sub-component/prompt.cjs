@@ -12,6 +12,7 @@ module.exports = [
       }
       return true
     },
+    default: 'client',
   },
   {
     type: 'input',

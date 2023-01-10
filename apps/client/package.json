@@ -1,7 +1,5 @@
 {
-  "name": "frontend-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "client",
   "type": "module",
   "scripts": {
     "dev": "vite",
