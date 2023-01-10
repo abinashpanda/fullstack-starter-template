@@ -1,5 +1,5 @@
 ---
-to: src/pages/<%= parent %>/hooks/use-<%= name %>.ts
+to: apps/<%= app %>/src/pages/<%= parent %>/hooks/use-<%= name %>.ts
 ---
 import constate from 'constate'
 

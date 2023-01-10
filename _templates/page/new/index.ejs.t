@@ -1,4 +1,4 @@
 ---
-to: src/pages/<%= name %>/index.ts
+to: apps/<%= app %>/src/pages/<%= name %>/index.ts
 ---
 export { default } from './<%= name %>'

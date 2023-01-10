@@ -1,5 +1,5 @@
 ---
-to: src/pages/<%= name %>/<%= name %>.tsx
+to: apps/<%= app %>/src/pages/<%= name %>/<%= name %>.tsx
 ---
 export default function <%= h.changeCase.pascal(name) %>() {
   return (

@@ -1,5 +1,5 @@
 ---
-to: src/hooks/use-<%= name %>.ts
+to: apps/<%= app %>/src/hooks/use-<%= name %>.ts
 ---
 import constate from 'constate'
 
