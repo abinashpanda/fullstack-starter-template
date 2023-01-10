@@ -8,8 +8,10 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "turbo run dev",
+    "build": "turbo run build",
     "postinstall": "patch-package",
-    "format": "prettier --write --no-error-on-pattern-mismatch --ignore-path .gitignore . --extension ts,tsx,js,jsx,json,md"
+    "lint": "eslint --fix --no-error-on-unmatched-pattern --ignore-path .gitignore --ext ts,tsx,js,jsx .",
+    "format": "prettier --write --no-error-on-unmatched-pattern --ignore-path .gitignore . --ext ts,tsx,js,jsx,json,md"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.47.1",

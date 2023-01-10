@@ -11,6 +11,7 @@ apiClient.interceptors.request.use((config) => {
 
   const accessToken = localStorage.getItem(import.meta.env.VITE_BEARER_TOKEN_KEY)
   if (accessToken) {
+    // @ts-expect-error
     config.headers.Authorization = `Bearer ${accessToken}`
   }
 
